@@ -1,7 +1,7 @@
 ### Java-How-to-web-scrape
 ---
-###### Gets html of page 
-
+#### Gets html of page 
+---
 ```java
 import java.util.Scanner;
 import java.net.URL;
@@ -20,3 +20,4 @@ return result;
 }
 (...)
 ```
+---
