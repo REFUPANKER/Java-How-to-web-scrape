@@ -9,7 +9,7 @@ import java.net.URL;
 public static String getHtml (URL uri)
 {
 String result="";
-Scanner sc1=new Scanner(uri.openRead());
+Scanner sc1=new Scanner(uri.openStream());
    while(sc1.hasNext())
    {
     result+=sc1.nextLine();
